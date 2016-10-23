@@ -1,0 +1,790 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+    background: white;
+    font-family: "Montserrat";
+    color: dimgray;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+section {opacity:1;}
+
+
+.loader-logo {
+    height: 50px;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    z-index: 105;
+    margin: 0 -110px 75px 0;
+    display: block;
+}
+
+
+.centerpeice {
+    padding-top: 7em;
+    padding-bottom: 5em;
+    background-color: orangered;
+    color: #5bc0de;
+    text-align: center;
+    display:block;
+   
+}
+.centerpeice2 {
+    padding-top: 7em;
+    background-color: orangered;
+    color: black;
+    text-align: right;
+    display:block;
+    overflow:auto;
+    width: 10%;
+}
+
+.jumbotron {
+    padding: 3em 0 0 0;
+    background-color: white;
+    background-image: url("../img/42829493.jpg");
+    background-position: 0 50%;
+    background-size: cover;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 5em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.jumbotron p {
+    margin-top: 0.5em;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+
+.jumbotron img {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    max-height: 300px;
+}
+
+.jumbotron-text {
+    margin-top: 2em;
+}
+ 
+/* Navbar
+==================================================================*/
+
+.navbar {
+    background: wheat;
+    padding-top: 20px;
+    height: 90px;
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+
+.navbar-collapse {
+    background: wheat !important;
+    box-shadow: 0 0 !important;
+}
+
+.navbar-toggle {
+    margin: 0;
+    padding: 0 10px 0 0;
+    color: white;
+}
+
+.dropdown-menu {
+    background: white !important;
+}
+
+.dropdown-menu > li > a:hover {
+    background: silver;
+    color: white;
+}
+
+.navbar-nav > li > a{
+    color: white;
+    border: 1px solid transparent;
+    background: transparent !important;
+}
+
+.navbar-nav > li > a:hover {
+    border: 1px solid black !important;
+    color: black;
+}
+
+.navbar-nav > li > a:focus {
+    border: 3px solid transparent !important;
+    color: white;
+    outline: 0;
+}
+
+.dropdown-toggle:active, 
+.open .dropdown-toggle {
+    background:white !important; color:black !important;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+    border: 1px solid transparent !important;
+}
+
+.navbar-nav > li > a.lang{
+    color: white;
+    border: 1px solid transparent;
+    background: transparent !important;
+}
+
+.navbar-nav > li > a.lang:hover,
+.navbar-nav > li > a.lang:focus {
+    border: 1px solid transparent !important;
+    color: black;
+}
+
+.navbar-nav .fa {
+    line-height: 0.5em !important;
+}
+
+.navbar .fa-3x {
+    font-size: 2.5em;
+}
+
+.dropdown-menu {
+    border: 0;
+}
+
+.logo {
+    margin: 0;
+    height: 70px;
+}
+
+/* Intro
+==================================================================*/
+
+.intro-items i{
+    color: dimgray;
+}
+
+.intro-items {
+    padding-top: 0;
+    padding-bottom: 6em;
+    text-align: center;
+}
+
+.intro-items h2 {
+    font-size: 1.75em;
+    color: dimgray;
+    text-transform: uppercase;
+}
+.intro-items p {
+    font-size: 1.15em;
+}
+
+/* Section Blocks
+==================================================================*/
+
+.half-block {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+.half-block.title {
+    padding: 3em 2em;
+    color: white;
+    background: dimgray;
+}
+
+.half-block.title i{
+    color: silver;
+}
+
+.half-block.title h2 {
+    font-size: 3em;
+    font-weight: 700;
+    font-family: "Montserrat";
+    color: silver;
+    margin-top: 0.25em;
+}
+
+.half-block.title h3 {
+    font-size: 1em;
+    font-weight: 700;
+    font-family:"Montserrat";
+    text-transform: uppercase;
+    color: silver;
+}
+
+.half-block.title  p {
+    font-size: 1em;
+    font-family: "Raleway", sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.half-block.title.title-white {
+    color: black !important;
+    background: white !important;
+}
+
+.half-block.title.title-white h2 {
+    color: black !important;
+}
+
+.half-block.title.title-white h3 {
+    color: black !important;
+}
+
+.half-block.title.title-orange i {
+    color: white;
+}
+
+.half-block.title.title-orange i.inlinedisplay {
+    display: inline-block !important;
+}
+
+.half-block.title.title-orange p.bigquote {
+    font-size: 1.5em !important;
+}
+
+.half-block.title.title-orange {
+    color: white !important;
+    background: silver !important;
+}
+
+.half-block.title.title-orange h2 {
+    color: white !important;
+}
+.half-block.title.title-orange h3 {
+    color: white !important;
+}
+
+.half-block.items h4 {
+    font-size: 1em;
+    font-weight: 700;
+    font-family:"Montserrat";
+    color: black;
+}
+
+.half-block.items .row div {
+    margin-top: 1.5em;
+}
+
+.half-block.items .row .fa-2x {
+    font-size: 1.75em;
+}
+
+.half-block.items p {
+    font-size: 0.75em;
+    font-family:"Montserrat";
+}
+
+.half-block.items i {
+    color: silver;
+}
+
+.bg-img {
+    background-position: 0 50%;
+    background-size: cover;
+    color: transparent;
+}
+
+a.ghost-button{
+    font-size: 1.5em;
+    font-weight: 700;
+    background: rgba(55,60,70,0.7);
+    color: silver;
+    padding: 1em;
+    margin: 5em auto 0 auto;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover.ghost-button{
+    color: dimgray;
+    background: silver;
+}
+
+/* Images
+==================================================================*/
+
+.bg-about-us {
+    background-image: url("../img/image2.jpg");
+}
+.bg-web-design-1 {
+    background-image: url("../img/shutterstock_176994644.jpg");
+}
+.bg-web-design-2 {
+    background-image: url("../img/image4.jpg");
+}
+.bg-ecommerce-1 {
+    background-image: url("../img/shutterstock_176659706.jpg");
+}
+.bg-ecommerce-2 {
+    background-image: url("../img/image6.jpg");
+}
+.bg-web-development-1 {
+    background-image: url("../img/shutterstock_240346891.jpg");
+}
+.bg-web-development-2 {
+    background-image: url("../img/image8.jpg");
+}
+.bg-contact-us {
+    background-image: url("../img/shutterstock_142302319.jpg");
+}
+.bg-team {
+    background-image: url("../img/IMG_0060.JPG")
+}
+.bg-team2 {
+    background-image: url("../img/working 3.jpg")
+}
+
+/* Portfolio
+==================================================================*/
+.portfolio-item {
+    position: relative;
+    background-position: 50% 0;
+    background-size: cover;
+    color: transparent;
+}
+.portfolio-over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3em 3em;
+    display: block;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+    opacity: 0;
+    /* transitions */
+    transition: all 1s;
+    -ms-transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+}
+.portfolio-over:hover {
+    background: rgba(245,105,75,0.75);
+    opacity: 1;
+}
+
+.portfolio-over .portfolio-title {
+    display: block;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.portfolio-over .portfolio-type {
+    display: block;
+    font-size: 1.25em;
+}
+
+.portfolio-over .portfolio-icons {
+    margin-top: 3em;
+    display: block;
+}
+
+.portfolio-over .portfolio-icons a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.portfolio-over .portfolio-icons a:hover,
+.portfolio-over .portfolio-icons a:focus {
+    color: dimgray !important;
+    text-decoration: none;
+}
+
+.portfolio-over .portfolio-icons i {
+    margin: 0 0.25em 0 0.25em;
+}
+
+/* Contact Form
+==================================================================*/
+
+.map { 
+    background-image: url("../img/image10.jpg");
+    background-position: center right;
+    background-size: cover;
+    color: transparent;
+}
+
+.half-block.form-block i {
+    color: white;
+}
+
+.half-block.form-block i.inlinedisplay {
+    display: inline-block !important;
+}
+
+.half-block.title.title-orange p.bigquote {
+    font-size: 1.5em !important;
+}
+
+.half-block.form-block {
+    padding-top: 2em;
+    color: white !important;
+    background: silver !important;
+}
+
+.half-block.form-block h2 {
+    color: white !important;
+}
+.half-block.form-block h3 {
+    color: white !important;
+}
+
+label {
+    font-size: 0.75em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.form-control {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    color: white;
+    background: dimgray;
+    font-weight: 400;
+}
+
+.form-control::-webkit-input-placeholder { 
+    color: dimgray;
+    text-transform: uppercase;
+}
+
+.form-control:-moz-placeholder {
+    color: dimgray;
+    text-transform: uppercase;
+}
+
+.form-control::-moz-placeholder {
+    color: dimgray;
+    text-transform: uppercase;
+}
+
+.form-control:-ms-input-placeholder {
+    color: dimgray;
+    text-transform: uppercase;
+}
+
+input.form-control {
+    color: white;
+    text-transform: uppercase;
+}
+
+textarea.form-control {
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+    resize: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn-primary {
+    color: silver;
+    background: dimgray;
+    border: 0;
+    border-radius: 0;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+.btn-primary.disabled, 
+.btn-primary[disabled],
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+.btn-primary.disabled.focus,
+.btn-primary.focus[disabled],
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+.btn-primary.disabled.active,
+.btn-primary.active[disabled] {
+    color: silver;
+    background: dimgray;
+    border: 0;
+    border-radius: 0;
+}
+.btn-primary:hover {
+    color: white;
+    background: dimgray;
+}
+
+/* Footer
+==================================================================*/
+
+footer {
+    padding: 4em 0;
+    background: dimgray;
+}
+
+footer .logo {
+    height: 3em;
+    margin: 0 auto;
+}
+
+footer p {
+    margin-top: 1em;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+
+footer p.location {
+    font-size: 1.5em;
+}
+
+/* Animations
+==================================================================*/
+
+.anim-pulse {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: anim-pulse;
+    animation-timing-function: linear;
+}
+@keyframes anim-pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.7);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.anim-floating {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: anim-floating;
+    animation-timing-function: ease-in-out;
+}
+@keyframes anim-floating {
+    0% {
+        transform: translate(-50%, 0px);
+    }
+    65% {
+        transform: translate(-50%, 15px);
+    }
+    100% {
+        transform: translate(-50%, 0px);
+    }
+}
+
+/* MEDIUM STYLES
+==================================================================*/
+
+@media (min-width: 768px) and (max-width: 1280px)  {
+
+    /* Navbar */
+    .navbar {
+        font-size: 1em;
+    }
+
+    .row-eq-height {
+        display: block;
+    }
+
+    .logo {
+        margin: 5px 0 0 0;
+        height: 35px;
+    }
+
+    .navbar-nav > li > a{
+        font-size: 1em;
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 0.5em;
+    }
+
+    .navbar-nav .fa {
+        line-height: 0.25em !important;
+    }
+
+    /* Jumbotron */
+
+    .jumbotron h1 {
+        font-size: 3.5em;
+    }
+
+    .jumbotron p {
+        margin-top: 0.5em;
+        font-size: 2em;
+    }
+
+    .jumbotron-text {
+        margin-top: 3em;
+    }
+
+
+    /* Blocks */
+    .half-block.title {
+        padding: 3.5em 2em;
+    }
+    .half-block.title h2 {
+        font-size: 2em;
+        margin-top: 0.25em;
+    }
+
+    .half-block.title h3 {
+        font-size: 0.75em;
+    }
+
+    .half-block.title  p {
+        font-size: 0.75em;
+        width: 100%;
+    }
+
+    .half-block.title .fa-2x{
+        font-size: 1.25em;
+    }
+
+    .title-white .fa-2x{
+        font-size: 2em !important;
+    }
+
+    .half-block.items h4 {
+        font-size: 0.75em;
+    }
+
+    .half-block.items .row .fa-2x {
+        font-size: 1.5em;
+    }
+
+    .half-block.items p {
+        font-size: 0.65em;
+    }
+    a.ghost-button{
+        font-size: 1em;
+        margin: 7em auto 0 auto;
+    }
+    .half-block.title.title-orange p.bigquote 
+    {
+        font-size: 1.25em !important;
+    }
+
+    /* Intro */
+
+    .intro-items {
+        padding-bottom: 3em;
+    }
+
+    .intro-items .fa-4x {
+        font-size: 3em;
+    }
+
+    .intro-items h2 {
+        font-size: 1.5em;
+    }
+    .intro-items p {
+        font-size: 1em;
+        line-height: 1.75em;
+    }
+
+}
+
+/* MOBILE STYLES
+==================================================================*/
+
+@media (max-width: 767px) {
+
+    /* Navbar */
+    .logo {
+        padding-left: 5px;
+    }
+
+    .row-eq-height {
+        display: block;
+    }
+
+    .jumbotron {
+        background-image: url("../images/slider/home-mobile.jpg");
+    }
+
+    /* Jumbo */
+    .jumbotron h1 {
+        font-size: 2.5em;
+    }
+
+    .jumbotron p {
+        font-size: 1.5em;
+    }
+
+    /* Blocks */
+    .intro-items .fa-4x {
+        font-size: 3em;
+    }
+    .intro-items h2 {
+        font-size: 1.5em;
+    }
+    .intro-items p {
+        font-size: 1em;
+        line-height: 1.75em;
+    }
+
+    /* Blocks */
+    .half-block {
+        padding-bottom: 3em;
+    }
+
+    .half-block.title h2 {
+        font-size: 1.5em;
+    }
+
+    .half-block.title h3 {
+        font-size: 0.65em;
+    }
+
+    .half-block.title  p {
+        font-size: 0.75em;
+    }
+
+    .half-block.title .fa-2x{
+        font-size: 1.25em;
+    }
+
+    .title-white .fa-2x{
+        font-size: 2em !important;
+    }
+
+    .half-block.items h4 {
+        font-size: 0.75em;
+    }
+
+    .half-block.items .row .fa-2x {
+        font-size: 1.5em;
+    }
+
+    .half-block.items p {
+        font-size: 0.65em;
+    }
+    a.ghost-button {
+        font-size: 1em;
+        margin: 7em auto 0 auto;
+    }
+
+    .half-block.title.title-orange p.bigquote {
+        font-size: 1em !important;
+    }
+
+}
